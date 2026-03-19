@@ -103,14 +103,6 @@ so you don't need to change any URLs.
 | 3 | Credentials → Create API Key |
 | 4 | Paste key into `frontend/src/pages/AmbulanceTracker.jsx` where marked |
 
-### 3. Twilio SMS API (Optional — for real pre-alerts to hospital phones)
-
-| Step | Action |
-|------|--------|
-| 1 | Sign up at https://twilio.com |
-| 2 | Get Account SID + Auth Token + Phone number |
-| 3 | Paste into `backend/routes/emergencies.py` where marked with `# TODO: Twilio` |
-| 4 | `pip install twilio` |
 
 ---
 
